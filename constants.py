@@ -1,0 +1,1 @@
+CURRENCIES_TO_SAVE = ["UAH", "PLN", "EUR", "CAD"]
