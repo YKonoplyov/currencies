@@ -43,10 +43,11 @@ Currency Exchange is a Flask-based web application that allows users to track an
     pip install -r requirements.txt
     ```
 4. Configure the application by setting environment variables:
-    ```
-    POSTGRES_URL - url of your postgres db
+
+    POSTGRES_URL - url of your postgres db\
+    SECRET_KEY - secret key for Flask app, you can generate it [here](https://djecrety.ir/)\
     API_KEY - key for sending request to exchange api. To get one visit [ExchangeRate-API](https://www.exchangerate-api.com/) page
-   ```
+
 5. Apply migrations for database:
     ```shell
    flask db upgrade
