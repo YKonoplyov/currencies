@@ -71,3 +71,4 @@ The application will be accessible at http://localhost:5000 in your web browser.
 Get currency exchange value history from <date_from> by <currency_code>
 - GET /api/v1/currencies/<currency_code>:
 Get currency exchange value and automatically add it to db if currency code in list of currencies to save
+- /docs: interactive documentation
